@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap");
+
+.padding-0 {
+  padding: 0;
+}
+
+.pocetna {
+  position: relative;
+  height: 100vh;
+}
+
+.img {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: #091b1eee;
+  padding: 0px;
+}
+
+.navbar-brand {
+  margin-left: 100px;
+}
+
+.right-navigation {
+  position: fixed;
+  right: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meni-border {
+  width: 150px;
+  height: 63px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-style: solid;
+  border-color: #ebdfd4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ebdfd4;
+}
+
+.meni-border:hover {
+  background-color: #ebdfd4;
+  color: black;
+}
+.footer {
+  position: relative;
+  width: 100%;
+}
+
+.footer-img {
+  position: absolute;
+  z-index: 1;
+  height: 220px;
+  top: 0%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sadrzaj-footer {
+  position: relative;
+  padding: 30px;
+  z-index: 1;
+  color: #ebdfd4;
+  text-align: center;
+  font-family: Playfair;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #ebdfd4;
+}
+
+.catering {
+  font-size: 20vw;
+  color: bisque;
+  font-family: "Playfair";
+  margin-top: -4vw;
+  padding-left: 4vw;
+}
+
+.contimg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 4vw;
+}
+
+.srb {
+  font-size: 3vw;
+}
+
+.kls {
+  font-size: 1.5vw;
+}
+
+.kobe {
+  width: 80%;
+  height: auto;
+  margin-bottom: 4vw;
+  margin-left: 6vw;
+}
+
+.dinp {
+  color: gray;
+}
+
+.ch {
+  color: black;
+  font-size: 4vw;
+  margin-top: 15vw;
+}
+
+.chimg {
+  width: 100%;
+  height: auto;
+}
+
+.ab {
+  background-color: #031013;
+  color: azure;
+}
+
+.ab2 {
+  padding: 10vw;
+  font-family: Prata;
+}
+
+.ab3 {
+  padding: 4vw;
+}
+
+.progress-bar {
+  background: rgb(90, 116, 122);
+  height: 10px;
+  width: 0%;
+  position: fixed;
+  top: 63px;
+  z-index: 4;
+}
+
+.gallery {
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.gallery-img {
+  position: relative;
+  min-width: 400px;
+  min-height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.gallery-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-img:hover img {
+  transform: scale(1.2);
+}
